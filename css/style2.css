@@ -1,0 +1,399 @@
+
+.bgimg{
+
+
+	/*background-image: url(image/logos/rr8.jpg);*/
+	/*background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover; */
+	/*background-size: 100% 100%;*/
+	/*background-attachment: fixed;*/
+	/*width: 100%;*/
+	height: 660px;
+
+}
+.hearderset{
+
+	padding-top: 250px;
+
+	box-sizing: border-box;
+}
+
+.hearderser h2{
+
+	font-size: 32px;
+
+     }
+
+.hearderser h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+/*##################################### testing area ######################################################*/
+
+
+
+ul li a:active{
+	background-color: grey;
+	border-radius: 5px;
+}
+ul li a:hover{
+    text-decoration-color: grey;
+	border-radius: 5px;
+}
+.bgimg::after{
+    content: "";
+    background-image: url('../image/portfolio/mm5.jpg');
+    position: absolute;
+    height: 660px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+nav .container #collapsenavbar ul li a:hover{
+    color: black;
+    background-color: grey;
+    /*margin: 10px 10px;*/
+    padding: 1px 10px;
+    border-radius: 20px;
+}
+
+/*################################################################################################*/
+*{
+
+
+	margin: 0; 
+	padding: 0; box-sizing: 
+	border-box; 
+	font-family: Lobster;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 90vh;
+}      
+	
+}
+
+   
+.jumbotron h1{ 
+	font-size: 25px;
+	padding-top: 70px;
+	font-weight:bold;
+   }
+   
+
+
+
+
+
+
+/*
+..................our services...........*/
+
+.ourservices{
+
+	padding: 100px 0px 60px;
+	height: 1000px;
+
+}
+
+.ourservices h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.rowsetting{
+	margin: 80px 0px;
+}
+
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+
+}
+
+.fa-shopping-cart{
+
+	margin-top: 25px;
+}
+
+.fa-desktop{
+
+	margin-top: 27px;
+}
+
+.fa-lock{
+
+	margin-top: 25px;
+}
+
+.rowsetting p{
+
+	padding: 10px;
+	color: #6c757d!important;
+}
+
+.rowsetting h2{
+
+  margin-top: 20px;
+  font-weight: 30px;
+  font-size: 30px; 
+}
+/*
+//////////////////PORTFOLIO//////////////////////////*/
+
+.portfolio{
+
+height: 1100px;
+width: 100%;
+padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.card{
+
+	margin-top: 40px; 
+	border: 1px solid black;
+}
+
+
+
+
+
+
+/*.functionopenModel{
+
+	document.body.style.overflow-x = hidden";
+}*/
+
+
+
+/*
+//////////////////OUR TEAM///////////////////////////////*/
+.ourteam{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+.ourteam h1{
+
+	font-size: 40px;
+	font-weight: bold;
+}
+.teamsetting{
+	margin-top: 70px !important;
+}
+/*
+//////////////////OUR GALLARY...///////////////////////////////*/
+.btn-success{
+
+	width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    width: 109px;
+    height: 40px;
+}
+
+
+
+/*
+//////////////////FOOTER///////////////////////////////*/
+
+.footer{
+
+	height: 50px;
+	box-sizing: border-box;
+	text-align: justify-all;
+}
+.footer h6{
+	line-height: 40px;
+     
+
+}
+
+
+/*
+//////////////////MEDIA QUUIRY FOR RESPONSIVE///////////////////////////////*/
+
+
+
+@media(min-width: 992px){
+
+
+
+.hearderset h2{
+
+	font-size: 32px;
+
+     }
+
+.hearderset h1{
+	font-size: 52px;
+	font-weight: bold; 
+} 
+
+.ourservices{
+
+	
+	height: 650px;
+
+}
+.portfolio{
+	height: 1100px;
+}
+.ourteam{
+	height: 700px;
+}
+
+}
+
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+.hearderset h2{
+
+	font-size: 32px;
+
+     }
+
+.hearderset h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.ourservices{
+
+	
+	height: 700px;
+
+}
+.portfolio{
+	height: 900px;
+}
+.ourteam{
+	height: 650px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media(min-width: 575px) and (max-width: 767px){
+
+
+.hearderset h2{
+
+	font-size: 32px;
+
+     }
+
+.hearderset h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.ourservices{
+
+	
+	height: 930px;
+
+}
+.portfolio{
+	height: 3350px;
+}
+.ourteam{
+	height: 1300px;
+}
+
+}
+
+
+
+
+
+@media(min-width: 480px) and (max-width: 574px){
+
+
+.hearderset h2{
+
+	font-size: 32px;
+
+     }
+
+.hearderset h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.ourservices{
+
+	
+	height: 1150px;
+
+}
+.portfolio{
+	height: 2900px;
+}
+.ourteam{
+	height: 1300px;
+}
+
+}
+
+
+
+
+@media(max-width:479px ){
+	
+.hearderset h2{
+
+	font-size: 22px;
+
+     }
+
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.ourservices{
+
+	
+	height: 1830px;
+
+}
+.portfolio{
+	height: 2320px;
+}
+.ourteam{
+	height: 1200px;
+}
+
+
+
+
+}
+
+
+
+
+
